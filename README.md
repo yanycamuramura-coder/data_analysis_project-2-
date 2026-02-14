@@ -1,2 +1,2 @@
-# data_analysis_project-2-
-Customer Churn Analysis project featuring a predictive model and interactive Looker Studio dashboard to identify high-risk customers, analyze churn drivers, and estimate revenue at risk. Designed to support data-driven retention strategies and business decision-making.
+Live Dashboard: https://lookerstudio.google.com/reporting/aa64ab85-50b5-4a66-bdec-60b68dff3742
+
