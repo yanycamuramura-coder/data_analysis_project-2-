@@ -1,236 +1,68 @@
-📊 Customer Churn Analysis & Prediction 🚀 Project Overview
+📊 Customer Churn Prediction & Interactive Dashboard
+🚀 Overview
 
-This project performs end-to-end churn analysis, including:
+End-to-end Customer Churn Prediction Project combining data cleaning, exploratory analysis, and machine learning to identify high-risk customers and support business retention strategies. Includes a polished interactive dashboard for executive decision-making.
 
-Data cleaning & standardization
+🔹 Key Skills Demonstrated
 
-Exploratory Data Analysis (EDA)
+Python & Pandas — Data manipulation, cleaning, feature engineering
 
-Feature engineering
+Seaborn & Matplotlib — Data visualization and exploratory analysis
 
-Churn rate segmentation
+RapidFuzz — Text standardization and fuzzy matching
 
-Predictive modeling using Random Forest
+Machine Learning — Random Forest for churn prediction
 
-Model evaluation
+Excel / Looker Studio — Exporting results and building dashboards
 
-Risk segmentation
+Data-driven insights — Risk segmentation and actionable recommendations
 
-Automated export of dashboard-ready files
+🔹 What the Project Does
 
-The final output includes:
+Processes raw customer data (contracts, payments, services, tenure, charges)
 
-Trained model (.pkl)
+Cleans and standardizes data (missing values, outliers, fuzzy matching)
 
-Cleaned dataset with predictions
+Performs exploratory analysis: churn by tenure, contract, support, and consumption
 
-Excel dashboard with metrics & feature importance
+Builds a Random Forest model to predict churn probability
 
-Auto-saved charts
+Segments customers into Low / Medium / High risk
 
-📁 Project Structure . ├── data/ │ └── customer_churn_dataset.csv ├── images/ │ └── chart_1.png │ └── chart_2.png ├── churn_model_rf.pkl ├── churn_prevision.csv ├── churn_dashboard.xlsx └── main.py
+Generates outputs for dashboards: metrics, feature importance, and top 20 high-risk customers
 
-🧠 Business Objective
+🔹 Tech Stack
 
-Identify customers at risk of churn and segment them into:
+Python (Pandas, Scikit-Learn, Joblib)
 
-🟢 Low Risk
+Visualization (Seaborn, Matplotlib)
 
-🟡 Medium Risk
+RapidFuzz (Fuzzy matching)
 
-🔴 High Risk
+Excel / Looker Studio (Dashboard creation)
 
-This allows companies to:
+🔹 Business Impact
 
-Act before churn happens
+Identifies customers at high risk of churn
 
-Prioritize retention campaigns
+Quantifies revenue exposure
 
-Increase customer lifetime value (LTV)
+Supports prioritization of retention campaigns
 
-Reduce support-related churn drivers
+Provides actionable insights for executives
 
-🔎 Key Steps 1️⃣ Data Acquisition
+Bridges predictive modeling with business decision-making
 
-CSV dataset loaded using pandas
+🔹 Deliverables
 
-2️⃣ Data Cleaning & Standardization
+churn_prevision.csv — Predictions per customer
 
-Column normalization
+churn_dashboard.xlsx — Dataset + metrics + feature importance + top 20 high-risk customers
 
-Object value capitalization
+churn_model_rf.pkl — Trained Random Forest model
 
-Fuzzy matching with RapidFuzz for:
+Interactive dashboard ready for Looker Studio
 
-Contract
+💡 Note 
 
-Payment method
-
-Internet service
-
-Outlier treatment using IQR method
-
-Missing values handling
-
-3️⃣ Feature Engineering
-
-Created strategic business features:
-
-Tenure_category
-
-Consumption_category
-
-Support_calls_category
-
-Risk segmentation based on churn probability
-
-4️⃣ Exploratory Data Analysis (EDA)
-
-Visual insights generated for:
-
-Tenure distribution
-
-Churn per tenure segment
-
-Contract type vs churn
-
-Support calls impact
-
-Consumption impact
-
-Payment method LTV analysis
-
-Charts are automatically saved inside /images.
-
-5️⃣ Predictive Modeling
-
-Model used:
-
-RandomForestClassifier
-
-n_estimators=150
-max_depth=10
-random_state=42
-Steps:
-
-One-hot encoding
-
-Train/Test split (70/30)
-
-Model training
-
-Probability prediction
-
-Risk segmentation
-
-📈 Model Outputs
-
-The model exports:
-
-📄 churn_prevision.csv
-
-Full dataset with:
-
-Predicted churn
-
-Churn probability
-
-Risk segment
-
-📊 churn_dashboard.xlsx
-
-Includes:
-
-Complete_data
-
-Model_Metrics
-
-Train accuracy
-
-Test accuracy
-
-Total customers
-
-Predicted churn %
-
-High-risk %
-
-Variables_Importance
-
-High_Risk_Customer (Top 20)
-
-🧩 Risk Segmentation Logic Probability Segment 0 – 0.3 Low 0.3 – 0.7 Medium 0.7 – 1.0 High 🛠 Technologies Used
-
-Python
-
-Pandas
-
-Seaborn
-
-Matplotlib
-
-RapidFuzz
-
-Scikit-learn
-
-Joblib
-
-🎯 Business Insights Examples
-
-Customers with short tenure show higher churn rates.
-
-Higher support calls correlate strongly with churn.
-
-Certain contract types are more exposed to churn.
-
-Internet service type influences churn probability.
-
-High monthly charges combined with low tenure increases risk.
-
-⚡ How to Run pip install pandas seaborn matplotlib rapidfuzz scikit-learn joblib
-
-Then:
-
-python main.py
-
-💡 Strategic Value
-
-This project demonstrates:
-
-Data cleaning in real-world messy datasets
-
-Business-driven feature engineering
-
-Customer segmentation logic
-
-Predictive modeling pipeline
-
-Dashboard-ready export
-
-Retention strategy foundation
-
-📌 Future Improvements
-
-Hyperparameter tuning
-
-Cross-validation
-
-SHAP feature importance
-
-Model comparison (XGBoost, LightGBM)
-
-Deployment with FastAPI
-
-Dashboard with Streamlit or Power BI
-
-🏆 Portfolio Positioning
-
-This is not just a model.
-
-It is a customer retention decision system prototype.
-
-You can present it as:
-
-“Churn Prediction & Risk Segmentation Engine for Telecom / Subscription Businesses”
-
-That sounds corporate. Because it is.
+This project highlights full-stack data analytics skills: from raw data processing to predictive modeling and dashboard visualization, demonstrating ability to deliver actionable business insights and data-driven decisions.
